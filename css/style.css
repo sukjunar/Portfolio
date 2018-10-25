@@ -1,0 +1,51 @@
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+img.bg {
+  max-width: 100%;
+  max-height: auto;
+  z-index: -1;
+  position: absolute;
+}
+
+body {
+  position: relative;
+  z-index: 1;
+}
+
+header {
+left: 450px;
+  width: 900px;
+  height: 50px;
+  overflow: auto;
+  font-size: 150%;
+  position: fixed;
+}
+
+div.textLogo {
+  font-family: "Indie Flower", cursive;
+  color: #ffffff;
+  text-decoration: none;
+  float: left;
+}
+
+.navbar {
+  font-family: "Indie Flower", cursive;
+  float: right;
+}
+
+.navbarlink {
+  float: right;
+  padding-left: 50px;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
