@@ -3,12 +3,13 @@
 }
 
 .container:hover .banner {
-  opacity: 0.3;
-  transition: 0.4s;
+  opacity: 0.5;
+  transition: 0.5s;
 }
 
 .middle {
-  transition: .4s;
+  transition: 0.5s;
+  font-family: 'Playfair Display', serif;
   opacity: 0;
   position: absolute;
   top: 50%;
@@ -16,14 +17,50 @@
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
+  font-size: 200%;
 }
 
 .container:hover .middle {
   opacity: 1;
+  transition: 0.5s;
+}
+
+.container:hover .textbox {
+  opacity: 0;
+  transition: 0.5s;
 }
 
 .text {
   color: black;
   font-size: 200%;
   font-weight: bold;
+  transition: 0.5s;
 }
+
+.navbar-brand {
+  font-family: 'Playfair Display', serif;
+}
+
+.textbox {
+  transition: 0.5s;
+  font-family: 'Playfair Display', serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  color: white;
+  font-size: 700%;
+  text-align: center;
+  font-style: italic;
+  letter-spacing: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  div.textbox {
+    font-size: 200%;
+  }
+
+  div.text {
+    font-size: 75%;
+  }
