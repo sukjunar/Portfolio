@@ -9,7 +9,7 @@
 
 .middle {
   transition: 0.5s;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   opacity: 0;
   position: absolute;
   top: 50%;
@@ -38,12 +38,14 @@
 }
 
 .navbar-brand {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
+  font-style: oblique;
+  font-size: 100%;
 }
 
 .textbox {
   transition: 0.5s;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -52,7 +54,7 @@
   color: white;
   font-size: 700%;
   text-align: center;
-  font-style: italic;
+  font-style: oblique;
   letter-spacing: 15px;
 }
 
@@ -61,6 +63,20 @@
   height: 100%;
 }
 
+.active {
+  background-color: #dbdbdb;
+  border-radius: 5px;
+}
+
+.nav-item {
+  margin-left: 10px;
+}
+
+.nav-item:hover {
+  text-decoration: underline;
+}
+
+
 @media screen and (max-width: 768px) {
   div.textbox {
     font-size: 200%;
@@ -68,5 +84,9 @@
 
   div.text {
     font-size: 75%;
+  }
+
+  div.title {
+    text-align: center;
   }
 }
