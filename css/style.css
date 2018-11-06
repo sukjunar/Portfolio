@@ -40,7 +40,7 @@
 .navbar-brand {
   font-family: "Playfair Display", serif;
   font-style: oblique;
-  font-size: 125%;
+  font-size: 150%;
 }
 
 .textbox {
@@ -83,17 +83,20 @@ em:after {
   width: 0px;
   overflow: hidden;
   display: inline-block;
-  vertical-align: middle;
+  vertical-align: text-bottom;
   transition: .2s linear;
 }
 em:nth-child(1):after {
   content: 'ayne ';
+  font-size: 75%;
 }
 em:nth-child(2):after {
   content: 'ukjune ';
+  font-size: 75%;
 }
 em:nth-child(3):after {
   content: 'ong ';
+  font-size: 75%;
 }
 div:hover em:nth-child(1):after {
   width: 45px;
@@ -102,7 +105,7 @@ div:hover em:nth-child(2):after {
   width: 65px;
 }
 div:hover em:nth-child(3):after {
-  width: 35px;
+  width: 45px;
 }
 
 @media screen and (max-width: 768px) {
